@@ -1,0 +1,23 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["standard"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "prefer-const": "off",
+    "camelcase": "off",
+    "new-cap": "off",
+    "no-extra-boolean-cast": "off",
+    "no-unused-vars": "warn",
+    "space-before-function-paren": "off"
+  }
+}

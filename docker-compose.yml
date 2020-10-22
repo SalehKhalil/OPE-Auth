@@ -1,0 +1,14 @@
+version: "3"
+
+services:    
+  auth:
+    container_name: ope-auth
+    image: "grupofit/ope-auth"
+    ports:
+    - "3000:3000"
+  
+  redis:
+    container_name: ope-redis
+    image: "redis"
+    ports:
+      - "6379:6379"
